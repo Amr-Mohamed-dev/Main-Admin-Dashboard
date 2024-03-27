@@ -1,0 +1,14 @@
+import { Box } from "@mui/material";
+import Geo from "./geo";
+import Header from "../../components/Header";
+
+const GeographyChart = () => {
+  return (
+    <Box>
+      <Header title="Geography" subTitle="Simple Geography Chart" />
+      <Geo />
+    </Box>
+  );
+};
+
+export default GeographyChart;
